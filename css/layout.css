@@ -447,7 +447,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-image: url("/assets/images/laurel.png");
+background-image: url("../assets/images/laurel.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 380px auto;
