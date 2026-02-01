@@ -273,7 +273,23 @@ body {
 .hero__col:hover .hero__track {
   animation-play-state: paused;
 }
+@keyframes scroll-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
 
+@keyframes scroll-down {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 @media (max-width: 768px) {
   .hero {
     padding: 40px 16px;
@@ -333,9 +349,6 @@ body {
     width: 100%;
   }
 }
-
-
-
 /* ================= RIGHT FORM ================= */
 .hero__form {
   background: linear-gradient(135deg, rgb(123 74 181 / 0%), rgb(88 42 135 / 0%));
